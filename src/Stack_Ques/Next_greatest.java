@@ -11,7 +11,8 @@ public class Next_greatest {
     }
     public static int[] nextGreatest(int[] arr,int[] ans) {
         Stack<Integer> stack = new Stack<>();
-        for(int i=0;i<arr.length;i++) {
+        int n=arr.length;
+        for(int i=0;i<n;i++) {
             while (!stack.isEmpty() && arr[stack.peek()]<arr[i]) {
                 ans[stack.pop()]=arr[i];
             }
