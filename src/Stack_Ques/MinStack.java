@@ -46,7 +46,7 @@ public class MinStack   {
             if(arr[i].equals("push")){
                 obj.push(sc.nextInt());
             }else if(arr[i].equals("pop")){
-                obj.pop();
+               obj.pop();
             }else if(arr[i].equals("getMin")){
                 System.out.println(obj.getMin());
             }else if(arr[i].equals("top")){
