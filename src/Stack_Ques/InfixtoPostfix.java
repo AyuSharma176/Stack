@@ -10,7 +10,6 @@ public class InfixtoPostfix {
 
         for(int i=0;i<s.length();i++){
             char ch = s.charAt(i);
-//            int ascii = (int)ch;
 
             if(Character.isDigit(ch)){
                 val.push(String.valueOf(ch));
