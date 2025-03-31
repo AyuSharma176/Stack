@@ -2,7 +2,7 @@ package Stack_Ques;
 import java.util.*;
 public class Largest_rectangle_in_histogram {
     public static void main(String[] args) {
-        int[] arr= {2,3,5,4,6,3,7};
+        int[] arr= {1,2,3,4,5};
         System.out.println(largestRectangle(arr));
     }
     public static int largestRectangle(int[] arr) {
